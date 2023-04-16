@@ -1,0 +1,64 @@
+body{
+  margin:0;
+}
+
+.navbar-brand{
+  margin-left: 62px;
+
+}
+
+.digital-wallet{
+  width:500px;
+  margin:auto;
+}
+.payment-notes, .phone-input{
+    width:500px;
+    margin:20px auto;
+    text-align: justify;
+    font-family: Quicksand;
+    font-size:14px;
+}
+
+.btn-next:hover, .btn-redeem:hover{
+    background-color:#ffffff;
+    color: #F67722;
+}
+.btn-next, .btn-redeem{
+     color:#ffffff;
+     border-color:#F67722;
+     background-color:#F67722;
+}
+
+.btn-next{
+  width:500px;
+}
+.btn-redeem{
+  width:350px;
+}
+
+
+.cb-agree{
+  width:50px;
+  height:20px;
+  vertical-align:middle;
+  text-align: left;
+}
+label{
+    vertical-align: middle;
+}
+h3{
+  font-family: Quicksand;
+  font-weight:bold;
+  color:black;
+}
+.payment-header{
+  font-size:26px;
+  font-family: Poppins;
+  Font-weight:bold;
+  width:500px;
+
+}
+.membership-btn{
+  padding:10px 0;
+
+}

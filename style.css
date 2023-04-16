@@ -1,0 +1,316 @@
+.main-page{
+  background-color: #0a0a0a;
+}
+
+.main-page, .navbar a, .signup-btn, .btn-next{
+  color:#ffffff;
+}
+
+#home{
+background-image: url("images/watchdaily-bg copy.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height:650px;
+}
+
+#features {
+margin: 0 50px;
+padding-top: 50px;
+}
+
+#plan{
+  text-align: center;
+  padding: 170px 50px 0;
+}
+
+.features1, .features2, .features3{
+  margin:0  10px;
+  padding-top: 100px;
+}
+
+@media (max-width: 975px)  {
+    .features2-heading{
+        order:1;
+    }
+    .features2-img{
+        order:2;
+    }
+
+}
+
+.features-heading, .features2-heading{
+  padding-top:20px;
+}
+
+.features-heading p{
+  padding:0 50px;
+}
+.bgcolor.scrolled {
+  background: rgba(0, 0, 0, 0.80) !important;
+}
+.navbar-brand{
+  margin-left: 50px;
+}
+.navbar a, .plan-details{
+font-size:18px;
+}
+.navbar a, .signup-btn, .payment-notes, .phone-input, p{
+  font-family: Quicksand;
+}
+
+.navbar, .navbar-nav li{
+  padding: 0 30px;
+}
+
+.navbar a:hover, .buttonColor:hover, .card-title, .btn-next:hover,
+.text-link a, label:hover{
+    color:#F67722;
+}
+.buttonColor:hover, .btn-next:hover {
+  background-color:#ffffff;
+}
+.btn-menu{
+  font-size:16px;
+}
+
+.signup-btn, label{
+  background-color: #F67722;
+}
+.signup-btn{
+   border-style: none;
+}
+
+.home-header h1{
+    padding: 250px 200px 30px;
+    font-size: 70px;
+    }
+.home-header h1, .card-title, h2{
+       font-family: Fredoka One;
+  }
+
+.btn-select, p{
+  margin-top:20px;
+}
+
+/*plan details on homepage */
+.card-body{
+  margin:0 20px;
+}
+
+.container-plan{
+    margin:50px auto 0;
+    width:1000px;
+}
+.card{
+    width:300px;
+    margin: 10px;
+}
+@media only screen and (max-width: 990px) {
+  .container-plan {
+     width:350px;
+  }
+  .home-header h1{
+     padding: 150px 50px 30px;
+     font-size: 50px;
+     }
+  .collapse{
+  background: rgba(0, 0, 0, 0.80)
+  }
+}
+
+
+/*email button details on homepage */
+.email-submit{
+  padding: 20px 0;
+}
+.email-submit button, .plan-header{
+    font-size: 20px;
+    height:50px;
+}
+/* account-creation */
+.input-basic{
+    width:500px;
+    height:40px;
+    margin-bottom:-1px;
+}
+.basic-info{
+    margin:50px 0;
+}
+
+.btn-next{
+     border-color:#F67722;
+     background-color:#F67722;
+     width: 500px;
+}
+.agreement{
+  margin-bottom:20px;
+}
+/* choose a plan */
+
+.plan-offer li{
+    list-style:none;
+     border-bottom:1px solid;
+        margin:10px;
+}
+.hidden{
+    visibility: hidden;
+}
+
+.plan-selection{
+   min-width:500px;
+   margin:10px 100px;
+
+}
+.plan-details {
+    margin:10px 0;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #b9babd;
+}
+.button-next{
+  margin: 60px 0;
+}
+
+input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+label {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+}
+label:hover {
+  background-color: #fff;
+  border: 2px solid #F67722;
+}
+
+input[type="radio"]:focus + label {
+    border: 2px solid #444;
+    color: black;
+}
+.text-hidden{
+  visibility: hidden;
+}
+.btn-select{
+  margin-left:20px;
+}
+/* Choose how to pay */
+
+.payment-info{
+    width: 400px;
+
+}
+.cc{
+    width:400px;
+    height:50px;
+    line-height:3;
+    color:#616263;
+}
+.payment-option{
+    border:1px solid #616263;
+    margin-bottom:-1px;
+}
+.payment-method{
+    width:400px;
+    margin:50px auto;
+}
+/* cc-payment */
+.payment-notes, .phone-input{
+    width:500px;
+    text-align: justify;
+  }
+.payment-notes, .phone-input, .footer{
+    font-size:14px;
+}
+.payment-notes{
+  margin:auto;
+}
+.phone-input form{
+  margin:auto;
+}
+.cc-info{
+    margin:30px 0 20px;
+}
+.membership-btn{
+  margin:10px 0;
+}
+/* phone entry */
+.phone-entry{
+  margin: 20px auto;
+}
+form {
+  width: 300px;
+}
+
+
+.intl-tel-input {
+  display: table-cell;
+}
+.intl-tel-input .selected-flag {
+  z-index: 4;
+}
+.intl-tel-input .country-list {
+  z-index: 5;
+}
+.input-group .intl-tel-input .form-control {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+}
+.footer {
+  padding:30px 0;
+  bottom: 0;
+  line-height: 50px; /* Vertically center the text there */
+  background-color: #1b1b1b;
+  color: #5c5b5b;
+}
+span{
+  padding:0 50px;
+}
+.navbar .navbar-toggler .icon-bar {
+    color: #fff !important;
+}
+/*digital wallet */
+
+.phone-selection{
+    width:400px;
+    margin: auto;
+    min-width:300px;
+}
+.digital-payment{
+  width:500px;
+  margin:auto;
+}
+.phone-selection input{
+    position:relative;
+     margin:auto;
+}
+.dg-membership{
+  margin: 20px 0;
+  width:400px;
+}
+.payment-header, .plan-mainheader{
+  font-size:28px;
+  padding:50px 300px 10px;
+}
+.payment-header, .plan-header, .plan-mainheader{
+  font-weight:bold;
+  font-family: Poppins;
+}
+
+.plan-mainheader{
+  padding:20px;
+}
+.text-link a{
+  text-decoration:none;
+}
+.text-link, .cc{
+  margin:20px 0;
+}
