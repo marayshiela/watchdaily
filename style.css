@@ -1,50 +1,29 @@
 .main-page{
-  background-color: #0a0a0a;
+  background-color: black;
+  color:white;
 }
-
-.main-page, .navbar a, .signup-btn, .btn-next{
-  color:#ffffff;
-}
-
 #home{
 background-image: url("images/watchdaily-bg copy.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-height:100vh;
+height:100vh
 }
 
 #features {
 margin: 0 50px;
 padding-top: 50px;
 }
-
-#plan{
-  text-align: center;
-  padding: 170px 50px 0;
+#plan2{
+margin: 0 50px;
+padding-top: 150px;
 }
-
 .features1, .features2, .features3{
   margin:0  10px;
   padding-top: 100px;
 }
-
-@media (max-width: 975px)  {
-    .features2-heading{
-        order:1;
-    }
-    .features2-img{
-        order:2;
-    }
-
-}
-
-.features-heading, .features2-heading{
+.features-heading{
   padding-top:20px;
-}
-
-.features-heading p{
-  padding:0 50px;
 }
 .bgcolor.scrolled {
   background: rgba(0, 0, 0, 0.80) !important;
@@ -52,55 +31,78 @@ padding-top: 50px;
 .navbar-brand{
   margin-left: 50px;
 }
-.navbar a, .plan-details{
-font-size:18px;
-}
-.navbar a, .signup-btn, .payment-notes, .phone-input, p{
-  font-family: Quicksand;
-}
+.navbar a{
+color:white;
+font-size: 18px;
+font-family: Quicksand;
 
+}
 .navbar, .navbar-nav li{
   padding: 0 30px;
 }
 
-.navbar a:hover, .buttonColor:hover, .card-title, .btn-next:hover,
-.text-link a, label:hover{
+
+.navbar a:hover{
     color:#F67722;
 }
-.buttonColor:hover, .btn-next:hover {
-  background-color:#ffffff;
+.buttonColor:hover {
+  background-color:white;
+  color:#F67722;
 }
 .btn-menu{
   font-size:16px;
 }
 
-.signup-btn, label{
-  background-color: #F67722;
-}
+
 .signup-btn{
+  background-color: #F67722;
    border-style: none;
+   font-family: Quicksand;
+   color:#ffffff;
 }
 
+.home-header{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 .home-header h1{
-    padding: 250px 200px 30px;
-    font-size: 70px;
+  padding:10px 50px;
+  font-size: 60px;
+  font-family: Fredoka One;
+  }
+.button1{
+  margin-top:30px;
+}
+h1{
+    padding:10px;
+    font-size: 40px;
+    font-family: Fredoka One;
+  
     }
-.home-header h1, .card-title, h2{
+h2{
        font-family: Fredoka One;
   }
 
-.btn-select, p{
+p{
   margin-top:20px;
+  font-family: Quicksand;
 }
+
 
 /*plan details on homepage */
 .card-body{
   margin:0 20px;
 }
-
+.card-title{
+    color:#F67722;
+}
 .container-plan{
-    margin:50px auto 0;
+    margin:auto;
     width:1000px;
+
 }
 .card{
     width:300px;
@@ -119,32 +121,41 @@ font-size:18px;
   }
 }
 
+@media only screen and (max-width: 300px) {
+  .button1{
+    margin-top:10px;
+  }
+}
 
+.plan-header{
+padding-bottom:50px;
+}
 /*email button details on homepage */
 .email-submit{
-  padding: 20px 0;
+  padding:50px 0 50px;
 }
-.email-submit button, .plan-header{
+.email-submit button{
     font-size: 20px;
     height:50px;
 }
 /* account-creation */
 .input-basic{
-    width:500px;
+    width:400px;
     height:40px;
     margin-bottom:-1px;
 }
 .basic-info{
     margin:50px 0;
 }
-
+.btn-next:hover{
+    background-color:#ffffff;
+    color: #F67722;
+}
 .btn-next{
+     color:#ffffff;
      border-color:#F67722;
      background-color:#F67722;
-     width: 500px;
-}
-.agreement{
-  margin-bottom:20px;
+     width: 400px;
 }
 /* choose a plan */
 
@@ -159,13 +170,22 @@ font-size:18px;
 
 .plan-selection{
    min-width:500px;
-   margin:10px 100px;
-
+   margin:20px;
 }
 .plan-details {
     margin:10px 0;
     padding-bottom: 10px;
     border-bottom: solid 1px #b9babd;
+    font-size:20px;
+}
+.plan-header{
+    font-weight:Bold;
+    font-size: 20px;
+    margin-top:30px;
+    height:40px;
+}
+.plan-heading{
+  margin:10px 0;
 }
 .button-next{
   margin: 60px 0;
@@ -179,6 +199,7 @@ input[type="radio"] {
 
 label {
     display: inline-block;
+    background-color: #F67722;
     padding: 10px 20px;
     font-family: sans-serif, Arial;
     font-size: 16px;
@@ -186,6 +207,7 @@ label {
     border-radius: 4px;
 }
 label:hover {
+  color: #F67722;
   background-color: #fff;
   border: 2px solid #F67722;
 }
@@ -199,6 +221,7 @@ input[type="radio"]:focus + label {
 }
 .btn-select{
   margin-left:20px;
+  margin-top:20px;
 }
 /* Choose how to pay */
 
@@ -211,6 +234,7 @@ input[type="radio"]:focus + label {
     height:50px;
     line-height:3;
     color:#616263;
+    text-decoration:none;
 }
 .payment-option{
     border:1px solid #616263;
@@ -222,17 +246,11 @@ input[type="radio"]:focus + label {
 }
 /* cc-payment */
 .payment-notes, .phone-input{
-    width:500px;
+    width:400px;
+    margin:20px auto;
     text-align: justify;
-  }
-.payment-notes, .phone-input, .footer{
+    font-family: Quicksand;
     font-size:14px;
-}
-.payment-notes{
-  margin:auto;
-}
-.phone-input form{
-  margin:auto;
 }
 .cc-info{
     margin:30px 0 20px;
@@ -269,6 +287,7 @@ form {
   bottom: 0;
   line-height: 50px; /* Vertically center the text there */
   background-color: #1b1b1b;
+  font-size:14px;
   color: #5c5b5b;
 }
 span{
@@ -281,7 +300,7 @@ span{
 
 .phone-selection{
     width:400px;
-    margin: auto;
+    margin:20px auto;
     min-width:300px;
 }
 .digital-payment{
@@ -290,27 +309,14 @@ span{
 }
 .phone-selection input{
     position:relative;
-     margin:auto;
+     right:23px;
 }
 .dg-membership{
   margin: 20px 0;
   width:400px;
 }
-.payment-header, .plan-mainheader{
-  font-size:28px;
-  padding:50px 300px 10px;
-}
-.payment-header, .plan-header, .plan-mainheader{
-  font-weight:bold;
-  font-family: Poppins;
-}
-
-.plan-mainheader{
-  padding:20px;
-}
-.text-link a{
-  text-decoration:none;
-}
-.text-link, .cc{
-  margin:20px 0;
+.payment-header{
+  font-size:26px;
+  font-family: Verdana;
+  Font-weight:bold
 }
